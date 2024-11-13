@@ -1,0 +1,193 @@
+
+/* body{
+    background-image: linear-gradient(to right, antiquewhite , rgb(253, 144, 229));
+} */
+.my-details{
+    background-color: #789DBC;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black ;
+    box-shadow: 10px 10px 10px 2px  rgb(89, 89, 69);
+    display: flex;
+    gap:100px;
+}
+.name{
+    color: aliceblue;
+    margin-left: 20px;
+}
+.intro{
+    background-color: #FFE3E3;
+    font-family: "Edu AU VIC WA NT Pre", serif;
+    width: auto;
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+    
+}
+.Welcome{
+    text-align: right;
+    font-family: "Edu AU VIC WA NT Pre", serif;
+    font-weight:450;
+  font-size: 36px;
+    margin-top:40px;
+}
+.photo{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border:2px solid beige;
+    margin:20px;
+}
+.title{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+.technical-skills{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+    display: flex;
+    gap:120px;
+    
+}
+.technical{
+    /* margin-left: 20px; */
+    padding-top: 50px;
+    padding-left: 50px;
+    align-items: center;
+    text-align: center;
+    background-color: #FEF9F2;
+    width:auto;
+    height:300px;
+    
+}
+/* .technical:hover{
+    box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.5), 0 10px 250px 0 rgba(0, 0, 0, 0.25);
+} */
+ .my-project{
+    background-color: #e0f5e6;
+    padding: 10px;
+    width: auto;
+ }
+ .projects{
+    position: relative;
+    left:5%;
+ }
+ .hob1{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+.hob2{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+.Hobbies{
+    height:300px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+.contact{
+    background-color: #EDDFE0;
+    width: auto;
+    height: 500px;
+    margin: 0px;
+    padding: 10px;
+}
+.contact-card{
+    margin: 30px;
+    background-image: url('./images/cursor.jfif');
+    background-size: 50%;
+    background-position-x: 25px;
+    background-position-y: 43px;
+    background-repeat: no-repeat;
+    position: relative;
+    left:47%;
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    box-shadow:  5px 5px 50px 0 rgba(0, 0, 0, 0.5);
+}
+.change{
+    position: relative;
+    padding-top: 1px;
+    left:10%;
+}
+.contact-card:hover{
+    /* display: flex;
+    height: 1vh; */
+    /* padding-top: 10px; */
+    
+    padding-bottom: 10px;
+    background-color: beige;
+    background-image: none;
+    position: relative;
+    left: 30%;
+    width:450px;
+    height:100px;
+    border: 1px solid black;
+    box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.5), 0 10px 250px 0 rgba(0, 0, 0, 0.25);
+
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+  }
+  button {
+    
+    background-color: #f09298;
+    border-radius: 20px;
+  }
+.footer{
+    height: 50px;
+    padding: 30px;
+    margin: 0px;
+    background-color: #a8a8a8;
+    text-align: center;
+    position: relative;
+}
+
+#img{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+}
+#project-img{
+    width:250px;
+    height:300px;
+    border-radius: 10px;
+    opacity: 0.4;
+    
+}
+#project-content{
+    color: black;
+    font-weight: 700px;
+    font-size: 40px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.cards{
+    position: relative;
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    height: 300px;
+    width: 250px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.cards:hover{
+    box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.5), 0 10px 250px 0 rgba(0, 0, 0, 0.25);
+}
+.card-1{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
